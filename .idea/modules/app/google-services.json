@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "507349488431",
+    "firebase_url": "https://itcqualitycontrol.firebaseio.com",
+    "project_id": "itcqualitycontrol",
+    "storage_bucket": "itcqualitycontrol.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507349488431:android:d6f000984b8993e3b747da",
+        "android_client_info": {
+          "package_name": "com.example.itcqualitycontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507349488431-60d6ke3rbm3lbf5hs69972rnn0fu4o1k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.itcqualitycontrol",
+            "certificate_hash": "525ab8f807ffdae4fecf0363346fe27f45e71b82"
+          }
+        },
+        {
+          "client_id": "507349488431-stcsvmtl8c10nsh88hdr9fg49uj1fla4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9yLDfxDxIqyunJexdO90Unacx92BFI-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507349488431-stcsvmtl8c10nsh88hdr9fg49uj1fla4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

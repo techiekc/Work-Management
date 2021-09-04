@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/border"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <CheckBox
+            android:id="@+id/taskCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Item 1 checked"
+            android:layoutDirection="rtl"
+            android:paddingEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_button_2"
+
+
+            >
+        </CheckBox>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <EditText
+            android:id="@+id/taskRemark"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="12dp"
+            android:focusableInTouchMode="true"
+            android:focusable="auto"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:hint="Remarks">
+        </EditText>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

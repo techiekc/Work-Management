@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:id="@+id/enterText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Enter the task to be Added"
+            android:paddingTop="13dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:orientation="horizontal"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/background"
+            android:layout_marginBottom="10dp"
+            >
+        </TextView>
+
+        <EditText
+            android:id="@+id/newTask"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Write Here"
+            android:paddingTop="13dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:orientation="horizontal"
+            android:textColor="@color/colorPrimaryDark"
+            >
+        </EditText>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        >
+
+        <Button
+            android:id="@+id/addNew"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_button"
+            android:text="ADD"
+            android:textColor="#fff"
+            android:textSize="20sp">
+
+        </Button>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">SDPTask</string>
+
+    <string name="fname">Full Name</string>
+    <string name="uname">User Name</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="cpass">Confirm Password</string>
+    <string name="sprofile">Select Profile</string>
+    <string name="signup">SIGN UP</string>
+    <string name="question_signup">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="question_login">New User?</string>
+
+    <string name="fn_req">Full Name is required</string>
+    <string name="un_req">User Name is required</string>
+    <string name="email_req">Email is required</string>
+    <string name="val_email">Enter a valid Email address</string>
+    <string name="pass_req">Password is required</string>
+    <string name="pass_len_req">Minimum length of password should be 6</string>
+    <string name="cpass_req">You need to confirm password</string>
+    <string name="pass_equal_req">Both passwords should be same</string>
+
+    <string name="reg_succ">Successfully registered</string>
+    <string name="reg_fail">Authentication failed or Check Internet Connectivity</string>
+
+
+    <string name="frag_title_maint">MATAINENCE</string>
+    <string name="frag_title_health">HEALTH OF THE FACTORY</string>
+    <string name="frag_title_input">INPUT CONTROL</string>
+    <string name="frag_title_inven">INVENTORY CONTROL</string>
+    <string name="frag_title_upskil">UPSKILL</string>
+
+    <string name="day">Daily</string>
+    <string name="week">Weekly</string>
+    <string name="month">Monthly</string>
+    <string name="quater">Quarterly</string>
+
+    <string name="eng">English</string>
+
+
+    <string name="dus">Dust (in Kgs)</string>
+    <string name="mois_con">Moisture content</string>
+    <string name="tot_ash">Total Ash</string>
+    <string name="aia">AIA</string>
+    <string name="glu">Gluten</string>
+    <string name="sv_val">SV</string>
+    <string name="flav">Flavour</string>
+
+
+
+    <string name="inpparam1">Stack Height</string>
+    <string name="inpparam2">Moisture </string>
+
+    <string name="instruction">Update status 15 Minutes after making changes. </string>
+
+    <string name="k1">123</string>
+    <string name="k11">1123</string>
+    <string name="k12">1223</string>
+    <string name="k2">321</string>
+    <string name="k3">34</string>
+    <string name="k4">10</string>
+    <string name="k5">18</string>
+
+    <string name="sup">Supplier</string>
+
+
+
+    <string name="ovenprof">Oven Profile</string>
+    <string name="sub">Submit</string>
+    <string name="updateoven">Update Oven Status</string>
+
+    <string-array name="supp1">
+        <item></item>
+        <item>Naga</item>
+        <item>Meenakshi</item>
+        <item>Prasanna</item>
+        <item>Coimbatore</item>
+        <item>Sahuwala</item>
+        <item>Salem</item>
+        <item>Kesari</item>
+        <item>Mohini</item>
+    </string-array>
+
+    <string-array name="supp2">
+        <item></item>
+        <item>Naga</item>
+        <item>Meenakshi</item>
+        <item>Prasanna</item>
+        <item>Coimbatore</item>
+        <item>Sahuwala</item>
+        <item>Salem</item>
+        <item>Kesari</item>
+        <item>Mohini</item>
+    </string-array>
+
+</resources>

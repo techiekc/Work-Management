@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.SDPTask"
+    >
+
+
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+
+        >
+
+        <activity android:name="com.example.SDPTask.MainActivity"/>
+        <activity android:name="com.example.SDPTask.Signup" />
+        <activity android:name="com.example.SDPTask.Splash" />
+        <activity android:name="com.example.SDPTask.commonTask"
+                  android:windowSoftInputMode="adjustPan"
+            />
+        <activity android:name="com.example.SDPTask.displayCommonTask"
+            android:windowSoftInputMode="adjustPan"
+            />
+        <activity android:name="com.example.SDPTask.AddTask"/>
+        <activity android:name="com.example.SDPTask.SelectArea"/>
+        <activity android:name="com.example.SDPTask.SelectSection"/>
+        <activity android:name="com.example.SDPTask.ShiftAndDate"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.example.SDPTask.Details"/>
+        <activity android:name="com.example.SDPTask.WriteReport"/>
+
+        <activity android:name="com.example.SDPTask.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+
+        </activity>
+
+
+    </application>
+
+</manifest>

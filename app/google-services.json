@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "499179451880",
+    "firebase_url": "https://sdptask.firebaseio.com",
+    "project_id": "sdptask",
+    "storage_bucket": "sdptask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499179451880:android:4eb868a00d0054f19aa05d",
+        "android_client_info": {
+          "package_name": "com.example.SDPTask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499179451880-02uc9fd5lat201vvlghdgq2e3jg72vg8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEM1xNlFzOe1zC0kqb443TMWKsZXo5GvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499179451880-02uc9fd5lat201vvlghdgq2e3jg72vg8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
